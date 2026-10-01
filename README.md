@@ -233,37 +233,3 @@ Contando **somente células de código**:
 
 Agora não há classes `Fact`: as entradas são atribuídas a `sim.input['vida']` e `sim.input['postura']`, na célula 5. Os valores de teste estão na célula 8; os editáveis, na 12.
 
-## Correspondência com o roteiro e a rubrica
-
-| Critério | Peso | Evidência |
-|---|---:|---|
-| Modelagem fuzzy | 20% | Duas entradas, uma saída, três termos cada, justificativas e premissas |
-| Base de regras | 25% | Nove regras, todas as combinações, argumento de cobertura e extremos |
-| Casos de teste | 15% | Três casos com entradas, saída defuzzificada e interpretação comentadas no código |
-| README e reprodutibilidade | 10% | Instruções Colab/local, versões fixadas e notebook executado |
-| Entrega e discussão | 30% | Motivação, arquitetura, desenvolvimento, comparação MP1×MP2, roteiro e vídeo de apoio |
-
-Os materiais para apresentação estão preparados. A publicação no GitHub, o envio ao Classroom e a apresentação/discussão pelo autor ainda precisam ser realizados; não são substituídos pelos testes do código.
-
-## Vídeo, publicação e entrega
-
-O arquivo `VIDEO_DEMONSTRACAO.mp4` apresenta o problema, variáveis, nove regras, inferência, resultados, comparação e limitações. É um vídeo com texto e gráficos, **sem narração**, para acompanhamento e estudo. O PDF não define formato de narração; caso o professor exija fala do aluno, use `ROTEIRO_APRESENTACAO.md` para gravar sua própria explicação.
-
-1. Crie um repositório GitHub, por exemplo `mini-projeto-02-sekiro-fuzzy`.
-2. Extraia o ZIP e envie os arquivos à raiz, incluindo este README, o notebook, o `.py`, os arquivos de dependências, os resultados, a pasta `figuras` e o vídeo. Não envie somente o ZIP.
-3. Confira o notebook, as imagens do README e o vídeo no repositório. Garanta acesso ao professor.
-4. Envie o **link real do repositório** no Classroom até **01/10/2026, às 12h59**, conforme o roteiro fornecido.
-5. Prepare a apresentação e discussão de até 15 minutos com o roteiro anexo.
-
-O repositório e o envio ao Classroom não foram criados automaticamente. Não há URL de GitHub inventada no material.
-
-## Referências
-
-- `Mini_Projeto_02_-_Roteiro.pdf`, fornecido pela disciplina: requisitos, rubrica e prazo.
-- Mini-Projeto 01 — Conselheiro Shinobi: notebook e README anteriores.
-- [scikit-fuzzy — exemplo oficial da API de controle](https://scikit-fuzzy.github.io/scikit-fuzzy/auto_examples/plot_tipping_problem_newapi.html).
-- [scikit-fuzzy — implementação de ControlSystemSimulation](https://github.com/scikit-fuzzy/scikit-fuzzy/blob/master/skfuzzy/control/controlsystem.py).
-- [scikit-fuzzy — exemplo de superfície de controle](https://scikit-fuzzy.readthedocs.io/en/latest/auto_examples/plot_control_system_advanced.html).
-- [Activision — mecânicas de combate e postura](https://support.activision.com/sekiro/articles/sekiro-shadows-die-twice-game-mechanics).
-
-Consultadas em 30/09/2026. As fontes de domínio fundamentam o significado de vida/postura; os limiares e a política de recuo são escolhas didáticas deste projeto.
